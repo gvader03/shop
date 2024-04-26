@@ -1,0 +1,61 @@
+.img{
+    max-width: 50px;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product{
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.productstuff{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.span{
+    color: blueviolet;
+}
+
+.nothing{
+    font-size: 1.5rem;
+    border: 2px solid blueviolet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.logo{
+    max-width: 75px;
+    margin-top: 25px;
+}
+
+.quant{
+    display: flex;
+    flex-direction: column;
+}
+
+.quantbtn{
+    background-color: transparent;
+    margin-left: 15px;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+    width: 25px;
+}
+
+.quantity{
+    display: flex;
+    align-items: center;
+}

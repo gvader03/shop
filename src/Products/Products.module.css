@@ -1,0 +1,58 @@
+.plp{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.products {
+    margin: 0;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+@media (max-width: 750px) {
+    .plp{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moreinfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: flex-start;
+    
+}
+
+.image{
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.link{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.link:hover{
+    color: blueviolet;
+}
+
+h1, h2{
+    margin: 5px;
+}
+
+h3{
+    margin-top: 5px;
+    margin-bottom: 35px;
+}

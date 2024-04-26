@@ -1,0 +1,21 @@
+.button {
+    position: relative;
+    padding: 0.1em 1em;
+    background: linear-gradient(135deg, rgba(251, 33, 255, 0.748), rgba(0, 0, 255, 0.558));
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 2px 2px rgba(255,0,255,.2);
+    cursor: pointer;
+    text-align: center;
+    transition: all .2s linear;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+.button:hover {
+    text-shadow: 2px 3px 4px rgba(0,0,255,.2);
+    background: linear-gradient(135deg, rgba(0, 0, 255, 0.558), rgba(251, 33, 255, 0.748));
+    transform:scale(1.2,1.2);
+  }
